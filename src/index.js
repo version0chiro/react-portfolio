@@ -36,7 +36,6 @@ ReactDOM.render(
         <Navbar />
         <Intro />
         <About />
-        
         <Techstack />
         <Portfolio />
         <Contact />
