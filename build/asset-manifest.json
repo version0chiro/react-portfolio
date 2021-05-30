@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1a28949a.chunk.css",
+    "main.js": "/portfolio/static/js/main.72870c76.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.72870c76.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.fed7eca6.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fed7eca6.js.map",
+    "static/css/2.242f24fe.chunk.css": "/portfolio/static/css/2.242f24fe.chunk.css",
+    "static/js/2.fb2aab2b.chunk.js": "/portfolio/static/js/2.fb2aab2b.chunk.js",
+    "static/js/2.fb2aab2b.chunk.js.map": "/portfolio/static/js/2.fb2aab2b.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.4e7118f63dee967f91c766cd46e316b7.js": "/portfolio/precache-manifest.4e7118f63dee967f91c766cd46e316b7.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.242f24fe.chunk.css.map": "/portfolio/static/css/2.242f24fe.chunk.css.map",
+    "static/css/main.1a28949a.chunk.css.map": "/portfolio/static/css/main.1a28949a.chunk.css.map",
+    "static/js/2.fb2aab2b.chunk.js.LICENSE": "/portfolio/static/js/2.fb2aab2b.chunk.js.LICENSE",
+    "static/media/about.png": "/portfolio/static/media/about.1a942e1f.png",
+    "static/media/about1.png": "/portfolio/static/media/about1.c6f794fb.png",
+    "static/media/earth.jpg": "/portfolio/static/media/earth.67af05e1.jpg",
+    "static/media/font-awesome.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/image1.jpg": "/portfolio/static/media/image1.768998c6.jpg",
+    "static/media/image2.jpg": "/portfolio/static/media/image2.8de6195d.jpg",
+    "static/media/image3.jpg": "/portfolio/static/media/image3.28470933.jpg",
+    "static/media/image4.jpg": "/portfolio/static/media/image4.0b37f434.jpg",
+    "static/media/image5.jpg": "/portfolio/static/media/image5.8d16c4af.jpg",
+    "static/media/image6.jpg": "/portfolio/static/media/image6.62b7cc75.jpg",
+    "static/media/ionicons.css": "/portfolio/static/media/ionicons.c037dbbc.svg",
+    "static/media/male.png": "/portfolio/static/media/male.dbdb2277.png",
+    "static/media/male1.png": "/portfolio/static/media/male1.d995a6c1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fed7eca6.js",
+    "static/css/2.242f24fe.chunk.css",
+    "static/js/2.fb2aab2b.chunk.js",
+    "static/css/main.1a28949a.chunk.css",
+    "static/js/main.72870c76.chunk.js"
+  ]
+}
