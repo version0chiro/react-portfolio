@@ -1,5 +1,6 @@
 import React from "react";
 import myImage from "../img/about1.png";
+import myImage2 from "../img/about.png";
 
 class About extends React.Component {
   constructor() {
@@ -89,7 +90,7 @@ class About extends React.Component {
                       <img
                         src={myImage}
                         alt="About-us-img"
-                        style={{position: "relative",maxWidth: "100%"}}
+                        style={{ position: "relative", maxWidth: "100%" }}
                       />
                       <h5 className="title-right">Skills</h5>
 
@@ -129,6 +130,11 @@ class About extends React.Component {
                         );
                       })}
                     </div>
+                    <img
+                      src={myImage2}
+                      alt="About-us-img"
+                      style={{ position: "relative", maxWidth: "100%" }}
+                    />
                   </div>
                 </div>
               </div>
