@@ -27,7 +27,7 @@ class Intro extends React.Component {
                       "Front End Developer",
                       "Back End Developer",
                       "Software Engineer",
-                      "How you Doing?"
+                      "Why you still here?"
                     ]}
                     typeSpeed={80}
                     backDelay={1100}

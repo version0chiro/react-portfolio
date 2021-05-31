@@ -1,46 +1,12 @@
 import React from "react";
 import myImage from "../img/about1.png";
 import myImage2 from "../img/about.png";
+import { UserCard } from "react-ui-cards";
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
-      skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
-        {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90",
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80",
-        },
-        {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75",
-        },
-        {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85",
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80",
-        },
-      ],
       about_me: [
         {
           id: "first-p-about",
@@ -51,12 +17,7 @@ class About extends React.Component {
           id: "second-p-about",
           content:
             "I have high experience in Data Structures and Algorithms and have been practising them in highly competitive environments such as Hackerrank (5 stars in problem-solving) and Leetcode (2.5 stars in ranking <10000). I have two technical papers published in the IETE-SF journal. Apart from this, I have a habit of exploring new and upcoming technologies regularly making me up to pace with the current market. I am also available as a freelancer and have provided satisfaction to multiple clients.",
-        },
-        {
-          id: "third-p-about",
-          content:
-            "When I am not working, I am probably binge-watching animes or playing video games. I am a highly versatile music lover and have great taste, or that's what my peers have told me in movies. If you feel any of those can spark an interesting conversation between us, be sure to drop me a message and I will get back to you!.",
-        },
+        }
       ],
     };
   }
@@ -92,29 +53,48 @@ class About extends React.Component {
                         alt="About-us-img"
                         style={{ position: "relative", maxWidth: "100%" }}
                       />
-                      <h5 className="title-right">Skills</h5>
+                      <h5 className="title-right">GitHub Stats</h5>
+                      <UserCard
+                        style={{
+                          width: "100%",
+                          height: "auto",
+                          margin: "10px",
+                          marginBottom:"20px"
+                        }}
+                        float
+                        href="https://github.com/version0chiro"
+                        header="https://i.imgur.com/w5tX1Pn.jpg"
+                        avatar="https://avatars.githubusercontent.com/u/56084650?s=400&u=ad12c9cbe1a7d5eee24943a093d090391260daff&v=4"
+                        name="Sachin Singh Bhadoriya"
+                        positionName="Software Developer"
+                        stats={[
+                          {
+                            name: "Commits",
+                            value: 1484,
+                          },
+                          {
+                            name: "Stars",
+                            value: 12,
+                          },
+                          {
+                            name: "Repositories",
+                            value: 101,
+                          },
+                          {
+                            name: "Total PRs",
+                            value: 21,
+                          },
+                          {
+                            name: "Contributed",
+                            value: 25,
+                          },
+                        ]}
+                      />
 
-                      {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map((skill) => {
-                        return (
-                          <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
-                            <span className="pull-right">
-                              {skill.porcentage}
-                            </span>
-                            <div className="progress">
-                              <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{ width: skill.porcentage }}
-                                aria-valuenow={skill.value}
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                              ></div>
-                            </div>
-                          </React.Fragment>
-                        );
-                      })}
+                      <p className="lead">
+                      When I am not working, I am probably binge-watching animes or playing video games. I am a highly versatile music lover and have great taste, or that's what my peers have told me in movies. If you feel any of those can spark an interesting conversation between us, be sure to drop me a message and I will get back to you!.
+
+                      </p>
                     </div>
                   </div>
                   <div className="col-md-6">
