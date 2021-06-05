@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.56660df6.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.dc05114d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.dc05114d.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.85c87c5a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.85c87c5a.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.0c4e4ecc.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.0c4e4ecc.js.map",
     "static/css/2.242f24fe.chunk.css": "/react-portfolio/static/css/2.242f24fe.chunk.css",
-    "static/js/2.145ed17e.chunk.js": "/react-portfolio/static/js/2.145ed17e.chunk.js",
-    "static/js/2.145ed17e.chunk.js.map": "/react-portfolio/static/js/2.145ed17e.chunk.js.map",
+    "static/js/2.024f374b.chunk.js": "/react-portfolio/static/js/2.024f374b.chunk.js",
+    "static/js/2.024f374b.chunk.js.map": "/react-portfolio/static/js/2.024f374b.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.bc0bff45fd9db0053072c85aea23c287.js": "/react-portfolio/precache-manifest.bc0bff45fd9db0053072c85aea23c287.js",
+    "precache-manifest.57ec602644acfbae43bd6a337ecad15a.js": "/react-portfolio/precache-manifest.57ec602644acfbae43bd6a337ecad15a.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.242f24fe.chunk.css.map": "/react-portfolio/static/css/2.242f24fe.chunk.css.map",
     "static/css/main.56660df6.chunk.css.map": "/react-portfolio/static/css/main.56660df6.chunk.css.map",
-    "static/js/2.145ed17e.chunk.js.LICENSE": "/react-portfolio/static/js/2.145ed17e.chunk.js.LICENSE",
+    "static/js/2.024f374b.chunk.js.LICENSE": "/react-portfolio/static/js/2.024f374b.chunk.js.LICENSE",
     "static/media/about.png": "/react-portfolio/static/media/about.1a942e1f.png",
     "static/media/about1.png": "/react-portfolio/static/media/about1.c6f794fb.png",
     "static/media/earth.jpg": "/react-portfolio/static/media/earth.67af05e1.jpg",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.0c4e4ecc.js",
     "static/css/2.242f24fe.chunk.css",
-    "static/js/2.145ed17e.chunk.js",
+    "static/js/2.024f374b.chunk.js",
     "static/css/main.56660df6.chunk.css",
-    "static/js/main.dc05114d.chunk.js"
+    "static/js/main.85c87c5a.chunk.js"
   ]
 }

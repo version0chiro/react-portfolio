@@ -31,7 +31,7 @@ import {
 
 function Techstack() {
   return (
-    <Container fluid className="about-section">
+    <Container id="stack" fluid className="about-section">
       <h1 className="project-heading">
         <strong className="color-a">Languages</strong>
       </h1>
@@ -94,6 +94,15 @@ function Techstack() {
         </Col>
         <Col xs={4} md={2} className="tech-icons">
           <SiAndroid />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiRaspberrypi />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiArduino />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiGit />
         </Col>
       </Row>
       <h1 className="project-heading">
