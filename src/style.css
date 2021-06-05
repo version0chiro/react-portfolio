@@ -168,7 +168,6 @@ a:hover {
 /* portfolio */
 .project-section {
   position: relative !important;
-  padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
 }
@@ -178,7 +177,6 @@ a:hover {
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  height: auto !important;
 }
 
 .project-card-view {
@@ -199,8 +197,8 @@ a:hover {
 
 .card-img-top {
   padding: 20px !important;
-  width:100%;
   opacity: 0.99 !important;
+  /* width:20px; */
   border-radius: 10px !important;
 }
 
@@ -308,6 +306,11 @@ a:hover {
   position: relative;
   margin-bottom: 3rem;
   margin-top: 3rem;
+}
+
+.title-right:hover{
+  color:#0078ff;
+  transform: all 0.5s
 }
 
 .title-right:before {
