@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://version0chiro.github.io/react-portfolio/",
   "dependencies": {
+    "@formspree/react": "^2.2.3",
     "bootstrap": "^4.3.1",
+    "emailjs-com": "^2.6.4",
     "jquery": "^3.4.1",
     "lightbox2": "^2.11.0",
     "node-sass": "^4.14.1",
@@ -15,8 +17,10 @@
     "react-dom": "^16.8.6",
     "react-github-stats-card": "^1.0.1",
     "react-github-stats-card-v2": "^1.2.0",
+    "react-hook-form": "^7.8.0",
     "react-icons": "^4.2.0",
-    "react-scripts": "^3.3.0",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.4",
     "react-typed": "^1.1.2",
     "react-ui-cards": "^2.0.0",
     "typed.js": "^2.0.10"

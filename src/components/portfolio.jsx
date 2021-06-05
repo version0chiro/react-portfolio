@@ -2,18 +2,19 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard.jsx";
 
-import bob from "../img/bob.png";
+import vsCode from "../img/VSCodedMeme.png";
 
 
 class Portfolio extends React.Component {
   render() {
     return (
       <section id="work" className="portfolio-mf sect-pt4 route">
-        <Container>
+        <Container fluid className="project-section">
+        
           <h1 className="project-heading">
-            My Recent <strong className="purple"> Work </strong>
+            <strong className="color-a"> My Recent Work</strong>
           </h1>
-          <p style={{ color: "white" }}>
+          <p style={{ color: "black",textAlign: "center" }}>
             Here are a few projects I've worked on recently.
           </p>
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -39,7 +40,7 @@ class Portfolio extends React.Component {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath="https://images.unsplash.com/photo-1618389041494-8fab89c3f22b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                imgPath={vsCode}
                 isBlog={false}
                 title="VS Meme"
                 description="A VScode extension built on Typescript and Svelte, that works along with the Reddit API to extract memes and display them on the sidebar of the VSCode editior!"
@@ -59,7 +60,7 @@ class Portfolio extends React.Component {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                imgPath={bob}
+                imgPath="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"
                 isBlog={false}
                 title="Bob The Builder"
                 description="A construction focused Robot with features such as 'Crack and Water Leakage Detection using AI', 'Eulerian Maginfication for Vibration Analysis' , 'SPO2 Estimation using Image processing', 'A Chat bot to interact with people who needs help!'"
