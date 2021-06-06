@@ -451,6 +451,10 @@ a:hover {
   color: #0078ff;
   transform: all 0.5s;
 }
+.title-left:hover {
+  color: #0078ff;
+  transform: all 0.5s;
+}
 
 .title-right:before {
   content: "";

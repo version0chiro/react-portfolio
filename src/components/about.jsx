@@ -17,7 +17,7 @@ class About extends React.Component {
           id: "second-p-about",
           content:
             "I have high experience in Data Structures and Algorithms and have been practising them in highly competitive environments such as Hackerrank (5 stars in problem-solving) and Leetcode (2.5 stars in ranking <10000). I have two technical papers published in the IETE-SF journal. Apart from this, I have a habit of exploring new and upcoming technologies regularly making me up to pace with the current market. I am also available as a freelancer and have provided satisfaction to multiple clients.",
-        }
+        },
       ],
     };
   }
@@ -30,6 +30,25 @@ class About extends React.Component {
             <div className="col-sm-12">
               <div className="box-shadow-full">
                 <div className="row">
+                  <div className="col-md-6">
+                    <div className="about-me pt-4 pt-md-0">
+                      <div className="title-box-2">
+                        <h5 className="title-left">About Me</h5>
+                      </div>
+                      {this.state.about_me.map((content) => {
+                        return (
+                          <p className="lead" key={content.id}>
+                            {content.content}
+                          </p>
+                        );
+                      })}
+                    </div>
+                    <img
+                      src={myImage2}
+                      alt="About-us-img"
+                      style={{ position: "relative", maxWidth: "100%" }}
+                    />
+                  </div>
                   <div className="col-md-6">
                     <div className="row">
                       <div
@@ -59,7 +78,7 @@ class About extends React.Component {
                           width: "100%",
                           height: "auto",
                           margin: "10px",
-                          marginBottom:"20px"
+                          marginBottom: "20px",
                         }}
                         float
                         href="https://github.com/version0chiro"
@@ -92,29 +111,14 @@ class About extends React.Component {
                       />
 
                       <p className="lead">
-                      When I am not working, I am probably binge-watching animes or playing video games. I am a highly versatile music lover and have great taste, or that's what my peers have told me in movies. If you feel any of those can spark an interesting conversation between us, be sure to drop me a message and I will get back to you!.
-
+                        When I am not working, I am probably binge-watching
+                        animes or playing video games. I am a highly versatile
+                        music lover and have great taste, or that's what my
+                        peers have told me in movies. If you feel any of those
+                        can spark an interesting conversation between us, be
+                        sure to drop me a message and I will get back to you!.
                       </p>
                     </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="about-me pt-4 pt-md-0">
-                      <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
-                      </div>
-                      {this.state.about_me.map((content) => {
-                        return (
-                          <p className="lead" key={content.id}>
-                            {content.content}
-                          </p>
-                        );
-                      })}
-                    </div>
-                    <img
-                      src={myImage2}
-                      alt="About-us-img"
-                      style={{ position: "relative", maxWidth: "100%" }}
-                    />
                   </div>
                 </div>
               </div>
