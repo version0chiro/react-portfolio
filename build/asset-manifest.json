@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.bb9da68d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.d9e97b2a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.d9e97b2a.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.6bbf2bf3.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.6bbf2bf3.js.map",
+    "static/css/2.93d32c9f.chunk.css": "/react-portfolio/static/css/2.93d32c9f.chunk.css",
+    "static/js/2.80621dec.chunk.js": "/react-portfolio/static/js/2.80621dec.chunk.js",
+    "static/js/2.80621dec.chunk.js.map": "/react-portfolio/static/js/2.80621dec.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.93d32c9f.chunk.css.map": "/react-portfolio/static/css/2.93d32c9f.chunk.css.map",
+    "static/css/main.bb9da68d.chunk.css.map": "/react-portfolio/static/css/main.bb9da68d.chunk.css.map",
+    "static/js/2.80621dec.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.80621dec.chunk.js.LICENSE.txt",
+    "static/media/VSCodedMeme.344436f6.png": "/react-portfolio/static/media/VSCodedMeme.344436f6.png",
+    "static/media/about.d9226fba.png": "/react-portfolio/static/media/about.d9226fba.png",
+    "static/media/about1.13cb6cd2.png": "/react-portfolio/static/media/about1.13cb6cd2.png",
+    "static/media/earth.a08c82a6.jpg": "/react-portfolio/static/media/earth.a08c82a6.jpg",
+    "static/media/font-awesome.css": "/react-portfolio/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/ionicons.css": "/react-portfolio/static/media/ionicons.ee5b17df.svg",
+    "static/media/male.2d9719f4.png": "/react-portfolio/static/media/male.2d9719f4.png",
+    "static/media/male1.4a91a778.png": "/react-portfolio/static/media/male1.4a91a778.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6bbf2bf3.js",
+    "static/css/2.93d32c9f.chunk.css",
+    "static/js/2.80621dec.chunk.js",
+    "static/css/main.bb9da68d.chunk.css",
+    "static/js/main.d9e97b2a.chunk.js"
+  ]
+}
