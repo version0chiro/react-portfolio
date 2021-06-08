@@ -9634,6 +9634,11 @@ react-fontawesome@^1.6.1:
   dependencies:
     prop-types "^15.5.6"
 
+react-github-fork-ribbon@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/react-github-fork-ribbon/-/react-github-fork-ribbon-0.6.0.tgz#8b7454fec5bd5481af7fdf6d0fc8aa7653373301"
+  integrity sha512-lmobEGwg1k/JGMJMbiWNh3dd+5HUtePVqUu1LPr5L65MiK6mnn7ZgkGpFYXLijPxO9hD7x+f9qUrEzeazQdx2g==
+
 react-github-stats-card-v2@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/react-github-stats-card-v2/-/react-github-stats-card-v2-1.2.0.tgz#950c8cc9e7f7178fdb22b7236c5fb4ee45e29163"

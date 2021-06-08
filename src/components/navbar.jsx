@@ -1,5 +1,6 @@
 import React from "react";
 import $ from "jquery";
+import GitHubForkRibbon from "react-github-fork-ribbon";
 
 import logo1 from "../img/male1.png";
 import logo2 from "../img/male.png";
@@ -8,7 +9,7 @@ class Navbar extends React.Component {
   constructor() {
     super();
     this.state = {
-      logo: logo1
+      logo: logo1,
     };
   }
 
@@ -16,7 +17,7 @@ class Navbar extends React.Component {
     const nav = $("nav");
     let navHeight = nav.outerHeight();
 
-    $(".navbar-toggler").on("click", function() {
+    $(".navbar-toggler").on("click", function () {
       if (!$("#mainNav").hasClass("navbar-reduce")) {
         $("#mainNav").addClass("navbar-reduce");
       }
@@ -24,10 +25,10 @@ class Navbar extends React.Component {
 
     $("body").scrollspy({
       target: "#mainNav",
-      offset: navHeight
+      offset: navHeight,
     });
 
-    $(".js-scroll").on("click", function() {
+    $(".js-scroll").on("click", function () {
       $(".navbar-collapse").collapse("hide");
     });
 
@@ -51,7 +52,7 @@ class Navbar extends React.Component {
       }
     });
 
-    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function() {
+    $('a.js-scroll[href*="#"]:not([href="#"])').on("click", function () {
       if (
         window.location.pathname.replace(/^\//, "") ===
           this.pathname.replace(/^\//, "") &&
@@ -64,7 +65,7 @@ class Navbar extends React.Component {
         if (target.length) {
           $("html, body").animate(
             {
-              scrollTop: target.offset().top - navHeight + 5
+              scrollTop: target.offset().top - navHeight + 5,
             },
             1000,
             "easeInExpo"
@@ -74,7 +75,7 @@ class Navbar extends React.Component {
       }
     });
 
-    $(".js-scroll").on("click", function() {
+    $(".js-scroll").on("click", function () {
       $(".navbar-collapse").collapse("hide");
     });
   }
@@ -123,7 +124,7 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#resume">
-                  Resume 
+                  Resume
                 </a>
               </li>
               <li className="nav-item">
@@ -142,6 +143,13 @@ class Navbar extends React.Component {
                 </a>
               </li>
             </ul>
+                <GitHubForkRibbon
+                  href="https://github.com/version0chiro/react-portfolio"
+                  target="_blank"
+                  position="right"
+                >
+                  Fork me on GitHub
+                </GitHubForkRibbon>
           </div>
         </div>
       </nav>
